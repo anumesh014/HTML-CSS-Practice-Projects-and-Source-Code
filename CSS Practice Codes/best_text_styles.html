@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-Text Styles</title>
+    <style>
+        *{
+            font-family: arial;
+        }
+        .tahoma{
+            font-family: Tahoma;
+        }
+        .heading{
+            font-weight: bold;
+            font-size: 30px;
+            margin-bottom: 0px;
+            margin-top: -10px;
+        }
+        .sales-end-date{
+            font-size: 16px;
+            color: red;
+            margin-top: 11px;
+            font-style: italic;
+        }
+        #fourth-ex{
+            font-family: Verdana;
+        }
+        #fourth-ex h4{
+            margin-bottom: 0px;
+            letter-spacing: 0.1px;
+            font-size: 18px;
+        }
+        .gray-scale{
+            margin-top: 5px;
+            font-size: 15px;
+            color: rgb(96, 96, 96);
+        }
+        .course-dec{
+            width: 40%;
+            font-weight: bold;
+            opacity: 0.8;
+            font-size: 15.5px;
+            word-spacing: 1.5px;
+        }
+        .btn-get-started{
+            background-color: rgb(40, 116, 40);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            padding: 9px;
+            width: 120px;
+        }
+        .btn-get-started:hover{
+            background-color: rgb(81, 197, 66);
+            color: rgb(0, 0, 0);
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            padding: 9px;
+            width: 120px;
+        }
+        .main-tagline{
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+        .small-dec{
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 15px;
+            opacity: .9;
+        }
+        .link-lmore{
+            text-align: center;
+            color: rgb(23, 23, 223);
+        }
+        .link-lmore:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .small-off-orange{
+            font-size: 13px;
+            text-align: center;
+            color: rgb(222, 144, 0);
+            margin-bottom: 0px;
+        }
+        .product-name{
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 6px;
+            margin-bottom: 0px;
+            opacity: 0.8;
+        }
+        .big-heading{
+            text-align: center;
+            font-size: 30px;
+            margin-top: 2px;
+            font-weight: bold;
+            margin-bottom: 0px;
+        }
+        .price{
+            text-align: center;
+            font-size: 16px;
+            margin-top: 10px;
+            margin-bottom: 0px;
+            
+        }
+        #6th{
+            position: relative;
+        }
+        .buy-button{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,0%);
+            background-color: rgb(91, 91, 220);
+            text-decoration: none;
+            font-size: 17px;
+            color: white;
+            border: none;
+            border-radius: 15px;
+            padding: 5px;
+            height: 31px;
+            width: 50px;  
+            font-weight: bold; 
+            margin-top: 10px;        
+        }
+
+        .currnet-balance{
+            font-size: 27px;
+            margin-bottom: 0px;
+        }
+        .rate-today{
+            margin-top: 10px;
+            color: rgb(20, 139, 20);
+            font-size: 16px;
+            margin-bottom: 0px;
+        }
+        .estimation{
+            margin-top: 8px;
+            font-size: 15px;
+        }
+        .loss{
+            color: red;
+        }
+        .post-dec{
+            width: 78%;
+        }
+    </style>
+</head>
+<body>
+    <h5>1. Use Tahoma Font</h5>
+    <p class="tahoma">
+        This is Tahoma
+    </p>
+    <hr>
+    <h5>2. Use arial font and italic for des</h5>
+    <p class="heading">
+        Biggest Deals of the Year!
+    </p>
+    <p class="sales-end-date">
+        Sales end Tuesday
+    </p>
+    <hr>
+    <div id="fourth-ex">
+        <h5>4. Course stat</h5>
+        <h4>HTML CSS Course</h4>
+        <p class="gray-scale">Beginner to Pro</p>
+        <p class="course-dec">In this course, we'll learn the skills you need to become developer.</p>
+        <button class="btn-get-started">Get Started</button>
+    </div>
+    <hr>
+    <div id="5th-ex">
+        <h5>5.Shop wuii</h5>
+        <h4 class="main-tagline">Shopping for your business?</h4>
+        <p class="small-dec">See how Apple at Work can help.</p>
+        <p class="link-lmore">Learn more &gt;</p>
+    </div>
+    <hr>
+    <div id="6th">
+        <h5>6. Macbook pro buying alter</h5>
+        <p class="small-off-orange">New</p>
+        <p class="product-name">MacBook Pro</p>
+        <p class="big-heading">Supercharged for pros.</p>
+        <p class="price">From &dollar;1999</p>
+        <button class="buy-button">Buy</button>
+    </div>
+    <hr><hr><hr><hr><hr>
+    <div id="7th">
+        <h4>7. Trading sort of wui</h4>
+        <p class="currnet-balance">1,049.61 <span class="gray-scale">USD</span></p>
+        <p class="rate-today">+18.05 (1.75%) today</p>
+        <p class="estimation">After hours 1,048.00 <span class="loss">-1.61(0.15%)</span> </p>
+    </div>
+    <hr>
+    <div id="8th">
+        <h4>8. Free code camp post</h4>
+        <h4>freeCodeCamp.org <span class="gray-scale">@freeCodeCamp 1h</span>
+        </div></h4>
+        <p class="post-dec">As a web developer, you'll want to make your projets easy to use and navigate around.</p>
+        <p class="mentioning">
+            Here <span class="link-lmore">@chp_it</span> outlines the top skills new developers should have.
+        </p>
+        <hr>
+</body>
+</html>

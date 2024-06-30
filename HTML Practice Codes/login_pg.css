@@ -1,0 +1,33 @@
+h1{
+  color: black;
+  text-align: center;
+  padding: 6px;
+}
+body{
+  background-color: rgb(192, 143, 255);
+}
+form{
+  width: 330px;
+  margin: 0 auto;
+}
+input[type=Email]{
+  margin-bottom: 20px;
+  height: 20px;
+  width: 300px;
+}
+::placeholder{
+  text-align: center;
+  font-size: 15px;
+}
+input[type=password]{
+  margin-bottom: 20px;
+  height: 20px;
+    width: 300px;
+}
+input[type=radio]{
+margin-bottom: 7px;
+}
+input[type=checkbox]{
+  margin-bottom: 6px;
+  }
+ 

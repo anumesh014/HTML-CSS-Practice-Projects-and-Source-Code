@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advance Forms in HTML</title>
+  </head>
+  <body>
+    <h1>Event Regitration</h1>
+    <form>
+      <label for="Name">Name:</label><br/>
+      <input type="text" id="Name">
+        <br/> <br/>
+      <label for="Email">Email:</label><br/>
+      <input type="Email" id="Email">
+      <br/> <br/>
+      <label for="PhoneNumber">Phone:</label><br/>
+      <input type="tel" id="PhoneNumber">
+      <br/> <br/>
+      <label for="Ocupation">Ocupation:</label><br/>
+      <select name="Ocupation" id="Ocupation">
+        <option value="notSelected" selected>Select Here !</option>
+        <option value="Software Engineer">Software Engineer</option>
+        <option value="graphicDesiginer">Graphic Designer</option>
+        <option value="VideoEditor">Video Editor</option>
+      </select>
+      <br/> <br/>
+
+<fieldset>
+    <legend>Topic of Interest:</legend>
+      <input type="checkbox" name="HTML" id="HTML">
+      <label for="HTML">HTML</label><br/>
+
+      <input type="checkbox" name="CSS" id="CSS">
+      <label for="CSS">CSS</label><br/>
+      
+      <input type="checkbox" name="JavaScript" id="JavaScript">
+      <label for="JavaScript">JavaScript</label><br/>
+    </fieldset>     
+      <h4>Comment:</h4>
+      <textarea name="Comment" id="Comment" cols="30" rows="10"></textarea>   
+      <br\><br\>
+      <input type="submit" value="Register">
+    </form>
+
+  </body>
+</html>

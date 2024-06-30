@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML-Hyper Text Markup Language</title>
+    <style>
+      #red{
+        color: red;
+      }
+      #blue{
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="heading">
+      <b><u>Headings:</u></b>
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+    </div>
+    <hr>
+    <div class="p,b,i,sup,sub tags">
+      <h3>Paragraph/Lorem:</h3>
+      <p>
+        This is paragraph, and now I am using lorem-> Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Aspernatur quisquam illo fugit harum amet
+        incidunt maiores
+      </p>
+      <hr>
+      <b>BOLD-</b>
+      <b> voluptate optio officiis fuga delectus pariatur minus magni </b>
+      <hr>
+      <p>
+        <b>ITALIC -</b>
+        <i
+          >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+          sit.</i
+        >
+      </p>
+      <hr>
+      <p>SuperScript - 2<sup>3</sup></p>
+      <p>SubScript - 2<sub>3</sub></p>
+    </div>
+    <hr>
+    <div class="br,hr,ol,ul,img,a tags">
+
+        <h4>BR tag (break line tag)</h4>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, officia beatae tempora quibusdam <br> molestiae porro voluptas non qui possimus dolore dolores accusamus fuga ea error, modi magni tempore dicta. Fugiat.</p>
+
+        <h4>HR tag (Horizontal line tag)</h4>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <hr> Reprehenderit ducimus libero veniam eos atque eum modi, possimus recusandae sunt laborum!</p>
+        <hr>
+        <h4>Lists:</h4>
+        <h5>OL (Ordered List): </h5>
+        <ol>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Grapes</li>
+            <li>Carrot</li>
+            <li>Gu kha</li>
+        </ol>
+
+        <h5>UL (Unordered List): </h5>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Grapes</li>
+            <li>Carrot</li>
+            <li>Gu kha</li>
+        </ul>
+        <p>You can change the listing method by using "type" attribute inside the ol or ul tag.</p>
+        <hr>
+        <h3>Image Tag:</h3>
+        <img src="./Images/HTML Png.jpeg" alt="hmtl and web dev element">
+        <img src="./Images/A coder coding.png" alt="Coder coding in his computer">
+        <hr>
+        <h3>A tag:</h3>
+        <a href="https://www.google.com">
+            Google
+        </a>
+    </div>
+    
+    <hr>
+
+    <div class="form">
+      <h2>Form</h2>
+      <form action="">
+        <h5>Input type:Text</h5>
+        Name:<input type="text" placeholder="Placeholder Used">
+        <br> <br>
+        <h5>Input type:Email</h5>
+        Email:<input type="email" placeholder="Enter your email">
+        <br><br>
+        <h5>Input type:Password</h5>
+        Password:<input type="password" placeholder="Password">
+        <br> <br>
+        <h5>Input type:Checkbox</h5>
+        <input type="checkbox">Eat
+        <input type="checkbox">Sleep
+        <input type="checkbox">Repeat
+        <br> <br>
+        <h5>Input type:Radio</h5>
+        To select only one entity, give a attribute called "name" and add same value in it. <br>
+        <input name="gender" type="radio">Male
+        <input name="gender" type="radio">Female
+        <input name="gender" type="radio">Gay
+        <br><br>
+        <h5>Input type:Date</h5>
+        <input type="date">
+        <h5>Input type:Range</h5>
+        <input type="range">
+        <br><br>
+        <h5>Input type:File</h5>
+        <input type="file">
+        <br><br>
+        <h5>Input type:Submit</h5>
+        Giving a attribute named "value" will change the submit button's text. <br>
+        <input value="Log in" type="submit">
+      </form>
+    </div>
+    <hr>
+    <h3>DIV</h3>
+    <!-- 
+      Div is division.
+1.div is an rectangular shap which have width but no height in default.(div ek rectangular shape hai jiske pas width hoti hai par height nahi hoti by default)
+
+2.But, if the div consitst any element, then the height of div will be the total of element's height.(par agar us div mein koi elements aaye to div ki height un elements ki height barabar ho jayegi)   
+     -->
+     <p>
+      <ol>
+        <li>div is an rectangular shap which have width but no height in default.(div ek rectangular shape hai jiske pas width hoti hai par height nahi hoti by default)</li>
+        <li>But, if the div consitst any element, then the height of div will be the total of element's height.(par agar us div mein koi elements aaye to div ki height un elements ki height barabar ho jayegi)</li>
+      </ol>
+     </p>
+     <hr>
+    <div>
+      <h3>ID & CLASS</h3>
+      <p id="red">ID should not have same name because it is used for calling single element or specific elements.</p>
+      <p id="blue">Class can have same name because it calls multiple elements.</p>
+    </div>
+  </body>
+</html>

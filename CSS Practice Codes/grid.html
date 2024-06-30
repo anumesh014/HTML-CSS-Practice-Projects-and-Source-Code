@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body style="padding-bottom:1000px ;">
+    <div style="display: grid;
+                grid-template-columns: 50% 50%;
+    ">
+        <div style="background-color: lightblue;">div 1</div>
+        <div style="background-color: gray;">div 2 </div>
+    </div>
+    <div style="
+                margin-top: 15px;
+                display: grid;
+                grid-template-columns: 33% 33% 33%;
+    ">
+        <div style="background-color: lightblue;">div 1</div>
+        <div style="background-color: gray;">div 2 </div>
+        <div style="background-color: rgb(18, 160, 34);">div 3</div>
+        <div style="background-color: rgb(200, 255, 207);">div 4</div>
+    </div>
+    <div style="
+                margin-top: 15px;
+                display: grid;
+                grid-template-columns: 100px 1fr;
+    ">
+        <div style="background-color: lightblue;">div 1</div>
+        <div style="background-color: gray;">1fr</div>
+    </div>
+    <div style="
+                margin-top: 15px;
+                display: grid;
+                grid-template-columns: 100px 1fr 1fr;
+    ">
+        <div style="background-color: lightblue;">div 1</div>
+        <div style="background-color: gray;">1fr</div>
+        <div style="background-color: lightblue;">1fr</div>
+    </div>
+    <div style="
+                margin-top: 15px;
+                display: grid;
+                grid-template-columns: 100px 1fr 2fr;
+    ">
+        <div style="background-color: lightblue;">div 1</div>
+        <div style="background-color: gray;">1fr</div>
+        <div style="background-color: lightblue;">2fr</div>
+    </div>
+
+    <div style="
+                margin-top: 15px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 15px;
+                row-gap: 30px;">
+        <div style="
+        height: 200px;
+        background-color: lightblue;">1fr</div>
+        <div style="
+        height: 200px;
+        background-color: gray;">1fr</div>
+        <div style="
+        height: 200px;
+        background-color: lightblue;">1fr</div>
+        <div style="
+        height: 200px;
+        background-color: gray;">1fr</div>
+         <div style="
+         height: 200px;
+         background-color: lightblue;">1fr</div>
+         <div style="
+         height: 200px;
+         background-color: gray;">1fr</div>
+    </div>
+
+<hr>
+<hr>
+    <h1>Exercises:</h1>
+    
+
+    <h3>1. Create grid with 2 colums with widths of 200px and 75px</h3>
+    <div style="display: grid;
+                grid-template-columns: 200px 75px;
+        ">
+        <div style="background-color: beige;">200px</div>
+        <div style="background-color: rgb(220, 222, 245);">75px</div>
+    </div>
+
+    <h3>2.Create a grid with 3 columns. Widths:
+        50px | remaining space | 75px
+    </h3>
+
+    <div style="display: grid;
+                grid-template-columns: 50px 1fr 75px;
+
+    ">
+        <div style="background-color: blue;">50px</div>
+        <div style="background-color: blueviolet;">1fr</div>
+        <div style="background-color: red;">75px</div>
+    </div>
+
+    <h3>3.Create a grid with 4 equal columns that take up the entire page. Space between columns =20px, space between rows 10px
+    </h3>
+    
+    <div style="display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+">
+
+<div style="background-color: pink;" >col11</div>
+<div style="background-color: pink;" >col12</div>
+<div style="background-color: pink;" >col13</div>
+<div style="background-color: pink;" >col13</div>
+
+
+
+<div style="background-color: pink;" >col11</div>
+<div style="background-color: pink;" >col12</div>
+<div style="background-color: pink;" >col13</div>
+<div style="background-color: pink;" >col13</div>
+</div>
+
+
+
+</body>
+</body>
+</html>

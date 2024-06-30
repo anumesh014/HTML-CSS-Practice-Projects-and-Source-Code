@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Prac 2</title>
+</head>
+<body>
+    <h2>
+        Job Application
+    </h2>
+<form>
+    <label for="name">Name:</label><br/>
+    <input type="text" id="name"><br/><br/>
+
+    <label for="email">Email ID:</label><br/>
+    <input type="email" id="email"><br/><br/>
+
+    <label for="phone">Phone:</label><br/>
+    <input type="tel" id="phone"><br/><br/>
+
+    <h4>
+        <label for="resume">Resume:</label> <br/>
+        <input type="file" id="resume">
+    </h4>
+
+    <h4>
+     <label for="Exp">Experience (Years): </label> <br/>
+     <input type="number" id="Exp" min="0" max="60">
+    </h4>
+
+    <fieldset>
+        <legend>Skills:</legend>
+        
+        <input type="checkbox" for="HTML"> 
+        <label for="HTML">HTML</label>
+        <BR/>
+        <input type="checkbox" for="CSS"> 
+        <label for="CSS">CSS</label>
+        <BR/>
+        <input type="checkbox" for="JavaScript"> 
+        <label for="JavaScript">JavaScript</label>
+    </fieldset>
+    <H4>
+        Highest Education:
+    </H4>
+    <label for="edu"></label>
+    <select name="education" id="edu">
+        <option value="High School">High School</option>
+        <option value="High School">High School</option>
+        <option value="High School">High School</option>
+    </select>
+
+    <h4>
+        Availability:
+    </h4>
+    <input type="radio" name="availability" id="F-T">
+    <label for="F-T">Full-time</label>
+    <br/>
+    <input type="radio" name="availability" id="P-T">
+    <label for="P-T">Part-Time</label>
+
+    <h4>
+        Additional Comments:
+    </h4>
+    <textarea name="ADcomments" id="ADcomments" cols="30" rows="10"></textarea>
+    
+    <input type="submit" value="Submit-Application">
+</form>
+</body>
+</html>
